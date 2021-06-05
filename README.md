@@ -8,8 +8,8 @@ This repo collects all the excercises produced and gathered by [Andrea Rosati](h
 
 | Module | Subject | Contents                                                                                      |
 |--------|---------|-------------------------------------------------------------------------------------------|
-| 1      | Java Syntax and naming    | [Exercises](https://github.com/Jaeger87/CorsoTree2020/tree/master/module_02) |
-| 2      |  Control flow statements| [Flowgorithm](https://github.com/Jaeger87/CorsoTree2020/tree/master/module_03/Flowgorithm), [Exercises](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_02), [CruciPuzzle](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_02/CruciPuzzle) |
+| 1      | Java Syntax and naming    | [Exercises](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_01) |
+| 2      |  Control flow statements| [Flowgorithm](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_02/Flowgorithm), [Exercises](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_02), [CruciPuzzle](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_02/CruciPuzzle) |
 | 3      | Git                      | [Labirinth](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_03) |
 
 
