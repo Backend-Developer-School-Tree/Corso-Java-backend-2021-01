@@ -1,4 +1,4 @@
-# gif filtri webcam :kick_scooter:
+# gif filtri webcam :motorcycle:
 
 In questo esercizio utilizzerete il codice che avete scritto nell'esercizio filtri e realizzerete una gif di una cattura della webcam utilizzando tutti i filtri.
 

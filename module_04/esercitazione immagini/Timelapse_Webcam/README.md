@@ -1,4 +1,4 @@
-# Time lapse Webcam :kick_scooter:
+# Time lapse Webcam :motor_scooter: /:motorcycle:
 
 In questo esercizio realizzerete un software che produrra una gif in time lapse utilizzando la vostra webcam. Quando farete partire il programma, il software prima di iniziare a catturare immagini, eseguirà un countdown di 3 secondi.
 

@@ -1,4 +1,4 @@
-# Green Screen :kick_scooter:
+# Green Screen :motor_scooter:
 
 In questo esercizio realizzerete un software in grado di utilizzare la tecnica del green screen per aggiungere effetti ad un'immagine.
 
