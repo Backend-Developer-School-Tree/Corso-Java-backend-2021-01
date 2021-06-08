@@ -11,7 +11,7 @@ This repo collects all the excercises produced and gathered by [Andrea Rosati](h
 | 1      | Java Syntax and naming    | [Exercises](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_01) |
 | 2      |  Control flow statements| [Flowgorithm](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_02/Flowgorithm), [Exercises](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_02), [CruciPuzzle](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_02/CruciPuzzle) |
 | 3      | Git                      | [Labirinth](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_03) |
-| 4      | OOP                      | [Esercitazione immagini](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_03) |
+| 4      | OOP                      | [Esercitazione immagini](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_04/esercitazione%20immagini) |
 
 
 <img src="assets/treelogo.png" height="75">
