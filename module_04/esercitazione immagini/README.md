@@ -61,23 +61,42 @@ Nonostante Java non sia un linguaggio popolare per la grafica ci sono comunque m
 
 
 ```java
-    BufferedImage outputImage = new BufferedImage(1024, 1024, BufferedImage.TYPE_3BYTE_BGR);
+int width = 1024;
+int height = 1024;
+BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_3BYTE_BGR);
 ```
 
 Questa singola riga di codice crea per noi un'immagine grande 1024 * 1024 che può gestire i 3 classici canali RGB. Se volessimo colorarla completamente di rosso, col classico doppio ciclo for con cui cicliamo su una matrice possiamo fare:
 
 ```java
-        for (int col = 0; col < image.getWidth(); col++)
-            for (int row = 0; row < image.getHeight(); row++)
-            {
-                Color pixel = new Color(255,0,0);
-                outputImage.setRGB(col , row, pixel.getRGB());
-            }
+for (int col = 0; col < image.getWidth(); col++)
+    for (int row = 0; row < image.getHeight(); row++)
+    {
+        Color pixel = new Color(255,0,0);
+        outputImage.setRGB(col , row, pixel.getRGB());
+    }
 ```
 
 Perciò prima creiamo un nuovo pixel colorato e successivamente lo assegniamo all'immagine.
 
 Fate molto attenzione che non stiamo utilizzando la classica matrice Java ma un oggetto chiamato "BufferedImage" e per accedere ad uno specifico pixel non usiamo le parentesi quadre ma un suo metodo specifico, fate anche attenzione che non passiamo direttamente l'oggetto Color all'immagine ma il risultato della chiamata al metodo "getRGB()".
+
+Ovviamente con un doppio ciclo possiamo leggere i pixel dell'immagine e farci quello che vogliamo, per esempio in questo ciclo leggiamo ogni pixel e gli settiamo la componente del verde a 150:
+
+
+```java
+for (int col = 0; col < image.getWidth(); col++)
+    for (int row = 0; row < image.getHeight(); row++)
+    {
+        Color pixel = new Color(image.getRGB(col, row));
+        int red = pixel.getRed();
+        int green = 150;
+        int blue = pixel.getBlue();
+        Color newPixel = new Color(red, green, blue);
+        image.setRGB(col , row, newPixel.getRGB());
+    }
+```
+
 
 Infine per salvare l'immagine sul disco utilizziamo questa riga di codice:
 
@@ -105,8 +124,6 @@ Ora possedete le nozioni basi per poter lavorare con le immagini in Java e poter
 
 
 
-
-
 Esercizio | Difficoltà
 ------------ | -------------
 [256 shades of gray](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_04/esercitazione%20immagini/256_shades_of_gray) | :kick_scooter:
@@ -114,3 +131,17 @@ Esercizio | Difficoltà
 [Green screen](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_04/esercitazione%20immagini/Green_Screen) | :motor_scooter:
 [Time lapse con webcam](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_04/esercitazione%20immagini/Timelapse_Webcam) | :motor_scooter: /:motorcycle:
 [Gif filtri webcam](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_04/esercitazione%20immagini/Gif_filtri_webcam) |  :motorcycle:
+
+
+
+# Hall of fame
+
+<p align="center">
+<img src="https://media1.tenor.com/images/8c8f18bec7ba6a1b7ddc2ef76664e9ae/tenor.gif?itemid=10584134" class="center">
+</p>
+
+In questa tabella saranno inserite le soluzioni particolarmente meritevoli oppure gli effetti grafici di vostra creazione:
+
+Nome | Effetto 
+------------ | -------------
+Pierluigi Filosa |[Effetto Pokemon](https://github.com/ox-rock/JavaBackendCourse2021/tree/main/module_04/Filtro%20Pokemon) 
