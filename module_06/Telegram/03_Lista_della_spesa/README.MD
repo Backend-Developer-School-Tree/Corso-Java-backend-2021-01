@@ -1,7 +1,7 @@
 # Lista della spesa :motor_scooter:
 
 <p align="center">
-<img src="https://scontent-fco1-1.cdninstagram.com/v/t51.2885-15/e35/31997986_460118861109965_322486760426700800_n.jpg?_nc_ht=scontent-fco1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=pXxzRkmk744AX8q58DE&tp=18&oh=430a5c15919925c10fcc5db5ef788faf&oe=5FC83369" height="520" class="center">
+<img src="./listaSpesa.PNG" class="center">
 </p>
 
 [@insta_della_spesa](https://www.instagram.com/insta_della_spesa/?hl=it)

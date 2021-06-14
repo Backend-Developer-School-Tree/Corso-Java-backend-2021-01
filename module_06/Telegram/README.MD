@@ -32,7 +32,7 @@ Il token è univoco e legato al vostro account e al vostro bot, non dovete assol
 
 ## Partiamo
 
-Una volta creato il bot, scaricate il paccheto zip [IlMioPrimoBot.zip](https://github.com/Jaeger87/CorsoTree2020/tree/master/module_07/Telegram/IlMioPrimoBot.zip), decomprimetelo e nel file token.txt inserite il vostro **token segreto**, in questa maniera se volete caricare il progetto su github vi basterà inserire nel git.ignore il file token.txt.
+Una volta creato il bot, scaricate il paccheto zip [IlMioPrimoBot.zip](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_06/Telegram/IlMioPrimoBot.zip), decomprimetelo e nel file token.txt inserite il vostro **token segreto**, in questa maniera se volete caricare il progetto su github vi basterà inserire nel git.ignore il file token.txt.
 
 All'interno del progetto troverete due classi, la classe Main che contiene il main del progetto e la classe PrimoBot.java in cui risiede il bot. 
 
@@ -177,11 +177,11 @@ Non avendo ancora visto come gestire gli errori e le eccezioni in Java, non vi s
 
 Esercizio | Difficoltà
 ------------ | -------------
-[Bot base](https://github.com/Jaeger87/CorsoTree2020/tree/master/module_07/Telegram/01_BotBase) | :kick_scooter:
-[Random media bot](https://github.com/Jaeger87/CorsoTree2020/tree/master/module_07/Telegram/02_RandomMedia) | :kick_scooter:
-[Lista della spesa](https://github.com/Jaeger87/CorsoTree2020/tree/master/module_07/Telegram/03_Lista_della_spesa) | :motor_scooter:
-[Questionari](https://github.com/Jaeger87/CorsoTree2020/tree/master/module_07/master/04_Questionari) | :motor_scooter: /:motorcycle:
-[Morra cinese a carte](https://github.com/Jaeger87/CorsoTree2020/tree/master/module_07/Telegram/05_Morra_cinese_carte) |  :motorcycle:
+[Bot base](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_06/Telegram/01_BotBase) | :kick_scooter:
+[Random media bot](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_06/Telegram/02_RandomMedia) | :kick_scooter:
+[Lista della spesa](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_06/Telegram/03_Lista_della_spesa) | :motor_scooter:
+[Questionari](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_06/Telegram/04_Questionari) | :motor_scooter: /:motorcycle:
+[Morra cinese a carte](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_06/Telegram/05_Morra_cinese_carte) |  :motorcycle:
 
 
 E se riuscite a finirli tutti... create il vostro bot personale!

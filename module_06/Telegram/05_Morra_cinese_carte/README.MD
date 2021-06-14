@@ -1,4 +1,4 @@
-# Morra cinese con carte :motor_scooter: / :motorcycle:
+# Morra cinese con carte :motorcycle:
 
 <p align="center">
 <img src="https://pm1.narvii.com/6515/1ae0aa126da8ab28a28d956992d82b2c357ed782_hq.jpg" class="center">
@@ -10,7 +10,7 @@ In questa morra cinese non si gioca con i gesti ma si usano le carte; a inizio p
 
 
 <p align="center">
-<img src="https://scontent.ffco3-1.fna.fbcdn.net/v/t31.0-8/19984077_1636537016380444_8061355535848609364_o.jpg?_nc_cat=101&ccb=2&_nc_sid=9267fe&_nc_ohc=cPkiOclOyPMAX8cxWKG&_nc_ht=scontent.ffco3-1.fna&oh=648f06e3227f8131529ede5ea30ecdb4&oe=5FC88ACD" class="center">
+<img src="./kakegurui.PNG" class="center">
 </p>
 
 
