@@ -1,6 +1,6 @@
 ## Labirinto 2 🏍
 
-Implementare l'esercizio [labirinto](https://github.com/Jaeger87/CorsoTree2020/blob/master/module_04/README.md) del modulo 4 utilizzando gli oggetti per rappresentare le entità del gioco
+Implementare l'esercizio [labirinto](https://github.com/Jaeger87/CorsoTree2020/blob/master/module_04/README.md) del modulo 3 utilizzando gli oggetti per rappresentare le entità del gioco
 
 Progettare una classe astratta entità che deve essere estesa da tutte le altre classi del gioco
 * Giocatore
