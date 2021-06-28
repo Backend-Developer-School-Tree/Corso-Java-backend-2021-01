@@ -30,4 +30,4 @@ Per quanto riguarda il posizionamento dei pixel, essendo dei punti in uno spazio
 Si può realizzare l'esercizio anche senza queste nozioni sulle immmagini :wink:
 
 ## Accompagnamento musicale :musical_note:
-[![Alt text](https://img.youtube.com/vi/XxM1SX35-GU/0.jpg)](https://www.youtube.com/watch?v=XxM1SX35-GU)
+[![Gris OST](https://i.ytimg.com/vi/djxKuViYVFI/maxresdefault.jpg)](https://www.youtube.com/watch?v=djxKuViYVFI)
