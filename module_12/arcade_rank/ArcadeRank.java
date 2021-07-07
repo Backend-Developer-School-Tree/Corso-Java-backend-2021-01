@@ -21,7 +21,7 @@ public class ArcadeRank {
     }
 
     public static ArcadeRank getInstance(int maxSize) {
-        return instance == null ? new ArcadeRank(maxSize) : instance;
+        return instance == null ? instance = new ArcadeRank(maxSize) : instance;
     }
 
     public void insertUser(UUID uuid, String username) {
