@@ -31,7 +31,7 @@ Tutti gli endpoint devono far uso del cookie per capire da quale utente sta arri
 
 Campo | Tipo | Descrizione
 ------------ |-------- |-------------
-username | String | Un sopranome univoco scelto dall'utente
+username | String | Uno username univoco scelto dall'utente
 name | String | Nome dell'utente
 surname | String | Cognome dell'utente
 birthDate | Date | Data di nascita
@@ -46,7 +46,7 @@ password | String | Password dell'utente (Presente soltanto nella chiamata di re
 Campo | Tipo | Descrizione
 ------------ |-------- |-------------
 eventid | UUID | ID univoco dell'evento
-owned | String | sopranome del creatore dell'evento
+owned | String | username del creatore dell'evento
 name | String | Nome dell'evento
 date | Timestamp | Data e ora di quando si svolgerà l'evento
 place | String | Dove si svolgerà l'evento
