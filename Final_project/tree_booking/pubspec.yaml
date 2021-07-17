@@ -27,17 +27,17 @@ dependencies:
   flutter_localizations:
     sdk: flutter
 
-  get: 3.11.1
-  tuple: 1.0.3
-  time_machine: 0.9.12
-  google_fonts: 0.3.9
-  uuid: 2.2.0
-  cached_network_image: 2.2.0+1
-  flutter_cupertino_date_picker_fork: 1.0.1
+  get: 4.1.4
+  tuple: 2.0.0
+  time_machine: 0.9.16
+  google_fonts: 2.1.0
+  uuid: 3.0.4
+  cached_network_image: 3.1.0
+  flutter_cupertino_date_picker_fork: 1.0.3
   latlong: 0.6.1
-  dio: 3.0.10
-  flutter_spinkit: 4.1.2+1
-  sprintf: 4.0.2
+  dio: 4.0.0
+  flutter_spinkit: 5.0.0
+  sprintf: 6.0.0
   flushbar: 1.10.4
 
 

@@ -135,12 +135,12 @@ class Utils {
         contentType: ContentType.json.value,
         responseType: ResponseType.json);
     dio.options = options;
-    dio.interceptors.add(
+    /*dio.interceptors.add(
         InterceptorsWrapper(
             onError: (DioError dioError) {
 
             })
-    );
+    );*/
     return dio;
   }
 
