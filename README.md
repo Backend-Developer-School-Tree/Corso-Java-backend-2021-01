@@ -14,9 +14,18 @@ This repo collects all the excercises produced and gathered by [Andrea Rosati](h
 | 4      | OOP                      | [Esercitazione immagini](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_04/esercitazione%20immagini) |
 | 5      | Inheritance                      | [Esercizi](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_05) |
 | 6      | Advanced inheritance                      | [Iterabile](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_06/iterabile),  [lista](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_06/lista), [Labirinto 2](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_06/Labirinto_2), [Compagnia shared mobility](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_06/CompagniaSharedMobility), [Telegram](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_06/Telegram)
-| 7      | Generics                      | [Esercizi] (https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_07)
+| 7      | Generics                      | [Esercizi](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_07)
+| 8      | Eccezioni e annotazioni                      | [Esercizi](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_08)
+| 9      | Packages                      | [Esercizi](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_09)
 |10   | Design patterns |[Tripleton]()
 |11   | Parallel programming | [Sum Thread](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_11/01_SumThread), [From sequential to parallel](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_11/02_From%20sequential%20to%20parallel), [Covid simulator 2020](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_11/03_Covid%20simulator%202020), [Gutenberg analyzer](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_11/04_Gutenberg%20Analyzer), [Sorting pixels](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_11/05_Sorting%20pixels), [Blur](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_11/06_Blur)
+| 12      | Java Stream                      | [Esercizi](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_09)
+| 13      | API                      | [Esercizi](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_13)
+| 14      | Spring                      | [Esercizi](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_14)
+| 15      | Progetto                      | [Requisiti del progetto](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/Final_project)
+| 16      | Database                      | [Esercizi](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_16)
+| 17      | MVC                      | [Esercizi](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_17)
+| 18      | Test                      | [Esercizi](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_18)
 
 
 
