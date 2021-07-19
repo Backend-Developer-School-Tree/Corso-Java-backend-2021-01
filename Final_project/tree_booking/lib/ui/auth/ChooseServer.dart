@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:tree_booking/business_logic/AuthHandler.dart';
 import 'package:tree_booking/ui/auth/LoginPage.dart';
 import 'package:tree_booking/ui/common/RoundedButton.dart';
 import 'package:tree_booking/ui/style/AppTheme.dart';
@@ -116,7 +117,7 @@ class _ChooseServerState extends State<ChooseServer> {
     );
   }
 
-  void setBackend() {
+  void setBackend() async {
     if(backendController.text.isEmpty) {
       Utils.showErrorSnackBar(MyLocalizations.of(context, "insert_url"));
       return;
@@ -128,6 +129,13 @@ class _ChooseServerState extends State<ChooseServer> {
     Configuration.SERVER_URL = backendController.text + ":" + backendPortController.text + "/";
     if(!Configuration.SERVER_URL.contains("http"))
       Configuration.SERVER_URL = "http://" + Configuration.SERVER_URL;
+    Utils.showCustomHud(context);
+    bool connected = await AuthHandler().hello();
+    Utils.hideCustomHud(context);
+    if(!connected) {
+      Utils.showErrorSnackBar(MyLocalizations.of(context, "server_not_found"));
+      return;
+    }
     Get.to(LoginPage());
     Utils.showOkSnackBar(MyLocalizations.of(context, "url_set"));
   }

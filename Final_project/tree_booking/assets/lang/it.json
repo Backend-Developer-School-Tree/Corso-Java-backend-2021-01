@@ -56,5 +56,7 @@
   "cannot_join_event": "Impossibile prenotare l'evento",
   "join_event_ok": "Evento prenotato",
   "cannot_unjoin_event": "Impossibile abbandonare l'evento",
-  "unjoin_event_ok": "Evento abbandonato"
+  "unjoin_event_ok": "Evento abbandonato",
+  "no_cookie": "Nessun cookie impostato, usa set-cookie !",
+  "server_not_found": "Backend non trovato, controlla l'indirizzo ip"
 }

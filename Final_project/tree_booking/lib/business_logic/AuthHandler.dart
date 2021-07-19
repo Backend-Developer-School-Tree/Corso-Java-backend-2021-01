@@ -1,13 +1,31 @@
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
+import 'package:get/get.dart' as gett;
 import 'package:sprintf/sprintf.dart';
 import 'package:tree_booking/entity/UserEntity.dart';
 import 'package:tree_booking/utils/Configuration.dart';
 import 'package:tree_booking/utils/CookiesManager.dart';
+import 'package:tree_booking/utils/MyLocalizations.dart';
 import 'package:tree_booking/utils/Utils.dart';
 
 class AuthHandler {
+
+  Future<bool> hello() async {
+    Dio dio = Utils.buildDio();
+    try {
+      Response r = (await dio.get(Configuration.HELLO,));
+      if(r.statusCode != 200)
+        return false;
+
+    } on DioError catch (e) {
+      //print("ERROR GETTING TIME" + e.toString());
+      //print(e.response?.data);
+      //print(e.message);
+      return false;
+    }
+    return true;
+  }
 
   Future<UserEntity> login(String username, String password) async {
     Dio dio = Utils.buildDio();
@@ -20,8 +38,10 @@ class AuthHandler {
 
       // set cookies
       CookiesManager.clear();
-      if(!r.headers.map.containsKey("set-cookie"))
+      if(!r.headers.map.containsKey("set-cookie")) {
+        Utils.showErrorSnackBar(MyLocalizations.of(gett.Get.context, "no_cookie"));
         return null;
+      }
       for (String cookieString in r.headers["set-cookie"])
         CookiesManager.addCookie(cookieString);
 

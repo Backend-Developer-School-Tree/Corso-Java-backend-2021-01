@@ -132,7 +132,7 @@ class Utils {
           "Cookie": CookiesManager.getCookiesAsString(),
           "app_version": Configuration.APP_VERSION,
         },
-        contentType: ContentType.json.value,
+        //contentType: ContentType.json.value,
         responseType: ResponseType.json);
     dio.options = options;
     /*dio.interceptors.add(
