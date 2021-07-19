@@ -15,8 +15,8 @@ L'applicativo ha tutto ciò che gli serve lato frontend ma per poter funzionare 
 Tipo | Nome | Tipo Input | Input | Output | URI | Codice HTTP |Descrizione
 ------------|--------|--------|-------------|-------------|----------|--------|----------|
 GET | hello |  |  |  | /hello | 200 | Comunica che il server è configurato correttamente e raggiungibile dall'app
-POST | signUpUser | Body Json | User { username, password, name, surname, gender, birthDate} | User | /user | 201 |Registra un utente alla piattaforma
-GET | logIn | QueryString | [username, password] | User | /login?username={username}&password={password} | 200 | Verifica la corrispondenza di email e password e restituisce l'utente corrispondente
+POST | signUpUser | Body Json | User { username, password, name, surname, gender, birthDate} | User | /user | 201 |Registra un utente alla piattaforma (deve contenere il set-cookie)
+GET | logIn | QueryString | [username, password] | User | /login?username={username}&password={password} | 200 | Verifica la corrispondenza di email e password e restituisce l'utente corrispondente (deve contenere il set-cookie)
 GET | getActiveEvents | | | List\<Event> | /events | 200 |Restituisce gli eventi disponibili a cui l'utente può registrarsi
 POST | createEvent | Body Json | Event {eventid, owned, name, date, place, capacity} | Event | /event | 201 | Crea un evento e lo ritorna
 POST | joinEvent | PathParam | [eventid] | Event | /join/{eventid} | 201 | Registra l'utente ad un evento
