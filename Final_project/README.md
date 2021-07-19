@@ -14,6 +14,7 @@ L'applicativo ha tutto ciò che gli serve lato frontend ma per poter funzionare 
 
 Tipo | Nome | Tipo Input | Input | Output | URI | Codice HTTP |Descrizione
 ------------|--------|--------|-------------|-------------|----------|--------|----------|
+GET | hello |  |  |  | /hello | 200 | Comunica che il server è configurato correttamente e raggiungibile dall'app
 POST | signUpUser | Body Json | User { username, password, name, surname, gender, birthDate} | User | /user | 201 |Registra un utente alla piattaforma
 GET | logIn | QueryString | [username, password] | User | /login?username={username}&password={password} | 200 | Verifica la corrispondenza di email e password e restituisce l'utente corrispondente
 GET | getActiveEvents | | | List\<Event> | /events | 200 |Restituisce gli eventi disponibili a cui l'utente può registrarsi
@@ -77,7 +78,7 @@ Il backend da voi realizzato dovrà esporre gli endpoint elencati come APIREST; 
 <img src="assets/connection.png"  class="center" height="550">
 </p>
 
-In questa schermata dovrete inserire l'ip del server dove girerà il vostro applicativo e la porta da dove il vostro applicativo sarà in ascolto di nuove connessioni. Il server può tranquillamente essere il vostro computer su cui sviluppate il codice; se avete un ip visibible dall'esterno inserite quello altrimenti vi basterà connettere il telefono al vostro Wifi di casa e dargli come ip quello della rete interna del vostro computer, 
+In questa schermata dovrete inserire l'ip del server (anche senza specificare http://) dove girerà il vostro applicativo e la porta da dove il vostro applicativo sarà in ascolto di nuove connessioni. Il server può tranquillamente essere il vostro computer su cui sviluppate il codice; se avete un ip visibible dall'esterno inserite quello altrimenti vi basterà connettere il telefono al vostro Wifi di casa e dargli come ip quello della rete interna del vostro computer, 
 
 
 ### Come scopro il mio ip interno?
