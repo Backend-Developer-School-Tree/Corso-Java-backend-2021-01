@@ -49,6 +49,7 @@ Campo | Tipo | Descrizione
 ------------ |-------- |-------------
 eventid | UUID | ID univoco dell'evento
 owned | boolean | true/false se l'utente corrente è il creatore dell'evento
+joined | boolean | true/false se l'utente corrente è un partecipante dell'evento
 name | String | Nome dell'evento
 date | Timestamp | Data e ora di quando si svolgerà l'evento
 place | String | Dove si svolgerà l'evento
