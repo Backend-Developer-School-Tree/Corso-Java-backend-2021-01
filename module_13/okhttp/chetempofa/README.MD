@@ -4,7 +4,7 @@ Realizzare un programma che si connetta alle API di [Open weather map](https://h
 
 # Attenzione
 
-Purtroppo nel mondo in cui viviamo esiste un popolo che siccome non ha storia tenta in tutti i modi di crearsela rubando cultura da altri popoli, imponendo la propria e tante volte bombardando stati a caso. Può sembrare soprendente ma purtroppo non esiste soltanto una città chiamata Roma ma anche una specie di cittadina in Texas.
+Purtroppo nel mondo in cui viviamo esiste un popolo che non ha storia e tenta in tutti i modi di crearsela rubando cultura da altri popoli, imponendo la propria cultura agli altri e tante volte bombardando stati a caso. Può sembrare soprendente ma purtroppo non esiste soltanto una città chiamata Roma ma anche una specie di cittadina in Texas.
 
 <img src="latrina.jpg" height="312">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <img src="romatrue.jpg" height="312">
 

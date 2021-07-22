@@ -16,9 +16,9 @@ Dal momento che esistono tool come Postman e simili per ragioni puramente pratic
 
 ## Quali servizi posso chiamare?
 
-Moltissime piattaforme offrono un interfaccia API con cui poter interfacciarsi, alcuni di questi servizi sono a pagamento (google maps), altri richiedono che l'utente faccia prima una registrazione (Telegram per le sue BOT api) altri (che vedremo negli esercizi) sono liberamente utilizzabili. Molti progetti si basano su dati che spesso non si posseggono o che sarebbe molto costoso reperire, fare quindi una ricerca su quali servizi possano offrici i dati è solitamente uno dei primi passi che viene svolto, anche un big come trip advisor si avvale delle mappe google per far vedere dove si trovano i ristoranti.
+Moltissime piattaforme offrono un interfaccia API con cui potersi interfacciare, alcuni di questi servizi sono a pagamento (google maps), altri richiedono che l'utente faccia prima una registrazione (Telegram per le sue BOT api) altri (che vedremo negli esercizi) sono liberamente utilizzabili. Molti progetti si basano su dati che spesso non si posseggono o che sarebbe molto costoso reperire, fare quindi una ricerca su quali servizi possano offrici i dati è solitamente uno dei primi passi che viene svolto, anche un big come trip advisor si avvale delle mappe google per far vedere dove si trovano i ristoranti.
 
-In [questo sito](https://public-apis.xyz/) troverete una valanga di API pubbliche con documentazione in caso possano servirvi per i vostri progetti futuri. Esistono anche [piattaforme a pagamento](https://rapidapi.com/marketplace) che integrano in un unico sito tante API di terze parti, per molte aziende una soluzione del genere può risultare molto comoda.
+In [questo sito](https://public-apis.xyz/) troverete una valanga di API pubbliche con documentazione che potrebbero tornarvi utili per i vostri progetti futuri. Esistono anche [piattaforme a pagamento](https://rapidapi.com/marketplace) che integrano in un unico sito tante API di terze parti, per molte aziende una soluzione del genere può risultare molto comoda.
 
 
 ## Consigli per gli esercizi
@@ -30,7 +30,7 @@ Una buona documentazione delle API ha sempre qualche Json di esempio, usatelo pe
 
 Esercizio | Difficoltà
 ------------ | -------------
-[Che tempo fa da me?](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_06/Telegram/01_BotBase) | :kick_scooter:
-[Il mio goodreads fatto in casa](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_06/Telegram/02_RandomMedia) | :motor_scooter:
+[Che tempo fa da me?](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_13/okhttp/chetempofa) | :kick_scooter:
+[Il mio goodreads fatto in casa](https://github.com/Backend-Developer-School-Tree/Corso-Java-backend-2021-01/tree/main/module_13/okhttp/goodreads) | :motor_scooter:
 
 
